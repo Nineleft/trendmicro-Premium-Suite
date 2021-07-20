@@ -1,0 +1,1238 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Micro Premium Security Suite</title>
+    <meta name="keywords"/>
+    <meta name="description"/>
+
+    <link rel="stylesheet" href="css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" rel="stylesheet">
+  </head>
+<body>
+<div id="app">
+
+  <nav>
+    <div class="logo">
+        <img src="images/tm_logo.png" alt="Trend Micro Inc." />
+      </div>
+      <div class="links">
+        <div class="link">
+          <span @click="showProducts = !showProducts" v-bind:class="{'content-open': showProducts }" class="tab-text">Products</span>
+        </div>
+        <div class="link">
+          <a href="https://store.trendmicro.com/store?Action=Content&amp;Env=BASE&amp;Locale=en_US&amp;SiteID=tmamer&amp;pbPage=Home&amp;pgm=4823570300&amp;_ga=2.51760367.737630106.1626377880-503609244.1595777152&amp;_gac=1.26477263.1626273212.CjwKCAjwlrqHBhByEiwAnLmYUPCp9S-xe1GW5HcqH5uuUUTf1Wo3KRjmWahee7AM98kW_yY9uRSfjRoCzLUQAvD_BwE" target="_blank" rel="noopener noreferrer">Store</a>
+        </div>
+      </div>
+    <!-- submenu -->
+      <transition name="fade">
+        <div v-if="showProducts" class="submenu">
+          <div class="inner-wrapper ">
+            <div class="row">
+              
+              <div class="submenu-link">
+                <a href="https://www.trendmicro.com/en_us/forHome/products/premium-security-suite.html">
+                  <sup class="bubble">
+                    NEW
+                  </sup>
+                  <h5 class="link-text">
+                  Premium Security Suite
+                  </h5>
+                  <p class="subtext">
+                  Protection for up to 10 devices
+                  </p>
+                </a>
+              </div>
+
+              <div class="submenu-link">
+                <a href="https://www.trendmicro.com/en_us/forHome/products/maximum-security.html">
+                  <h5 class="link-text">
+                    Maximum Security
+                  </h5>
+                  <p class="subtext">
+                    Protection for up to 5 devices
+                  </p>
+                </a>
+              </div>
+
+              <div class="submenu-link">
+                <a href="https://www.trendmicro.com/en_us/forHome/products/internet-security.html">
+                  <h5 class="link-text">
+                    Internet Security
+                  </h5>
+                  <p class="subtext">
+                    Protection for up to 3 devices
+                  </p>
+                </a>
+              </div>
+
+              <div class="submenu-link">
+                <a href="https://www.trendmicro.com/en_us/forHome/products/antivirus-plus.html">
+                  <h5 class="link-text">
+                    Antivirus+ Security
+                  </h5>
+                  <p class="subtext">
+                   Comprehensive protection
+                  </p>
+                  <ul class="platforms">
+                    <li>PC</li>
+                  </ul>
+                </a>
+              </div>
+
+              <div class="submenu-link">
+                <a href="https://www.trendmicro.com/en_us/forHome/products/antivirus-for-mac.html">
+                  <h5 class="link-text">
+                    Antivirus for Mac
+                  </h5>
+                  <p class="subtext">
+                    Broad protection
+                  </p>
+                  <ul class="platforms">
+                    <li>Mac</li>
+                  </ul>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div> 
+      </transition>
+    <!--/end submenu -->
+  </nav>
+  <header>
+    <div class="content-container">
+        <h1>
+          Try Premium Suite Today
+        </h1>
+        <h5>
+          Try the Complete Full Featured Premium Suite FREE for 6 Months!
+        </h5>
+        <div class="price">
+          <a href="http://store.trendmicro.com/store/tmamer/en_US/buy/ThemeId.4823068100/pgm. 5003010600/productID.5258885500" class="button">
+            TRY 6 MONTHS FREE
+          </a>
+          <a href="http://store.trendmicro.com/store/tmamer/en_US/buy/ThemeId.4823068100/pgm. 5003010600/productID.5258885500" class="button transparent">
+            TRY MAXIMUM SECURITY FREE FOR 30 DAYS
+          </a>
+        </div>
+        <img src="images/award_2019.png" alt="Trend Micro - Home Network Security" class="awards">
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="spacer">
+      <div class="content-container-sm">
+        <div class="col12 center">
+          <h1>
+            <span>Complete</span> device and identity protection for you and your family
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="spacer">
+      <div class="content-container-sm">
+        <div class="col12">
+          <h2>
+            Why do you need Premium Security Suite?
+          </h2>
+          <p>
+            Premium Security Suite offers complete device and identity protection across PC, Mac, mobile phones, and tablets. Our most comprehensive security solution, Premium Security Suite - includes the following products:
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="content-container-sm spacer-sm">
+        <div class="col2">
+
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/icons/img_s1-1.webp">
+                </td>
+                <td class="pad-left">
+                  <h5 class="brand-color-font">
+                    Maximum Security
+                  </h5>
+                  <p class="no-pad">
+                    Protection for PC and Mac with 24x7 support.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="spacer-sm"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/icons/img_s1-3.webp">
+                </td>
+                <td class="pad-left">
+                  <h5 class="brand-color-font">
+                    WiFi Protection
+                  </h5>
+                  <p class="no-pad">
+                    Provides a secure VPN for public WiFi.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="spacer-sm"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/icons/img_s1-5.webp">
+                </td>
+                <td class="pad-left">
+                  <h5 class="brand-color-font">
+                    Password Manager
+                  </h5>
+                  <p class="no-pad">
+                    Simple and secure password management.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="spacer-sm"></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+        <div class="col2">
+
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/icons/img_s1-2.webp">
+                </td>
+                <td class="pad-left">
+                  <h5 class="brand-color-font">
+                    Mobile Security
+                  </h5>
+                  <p class="no-pad">
+                    Protection for Android and iOS devices.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="spacer-sm"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/icons/img_s1-4.webp">
+                </td>
+                <td class="pad-left">
+                  <h5 class="brand-color-font">
+                    ID Security
+                  </h5>
+                  <p class="no-pad">
+                    Provides dark web monitoring.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="spacer-sm"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/icons/img_s1-6.webp">
+                </td>
+                <td class="pad-left">
+                  <h5 class="brand-color-font">
+                    Premium Service
+                  </h5>
+                  <p class="no-pad">
+                    Your personal helpdesk for all things technical.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+    </section>
+
+    <section>
+      <div class="content-container-sm">
+        <div class="col12">
+          <p>
+            Maximum Security (includes Mobile Security), WiFi Protection can be used up to 10 devices each. Premium Service can be used on one(1) device. Password Manager and ID Security have unlimited use.
+          </p>
+        </div>
+        <div class="col2 spacer"></div>
+      </div>
+    </section>
+
+    <section class="spacer gray-bg">
+      <div class="content-container-sm">
+        <div class="col12 center">
+          <h2>
+            What people say about Trend Micro
+          </h2>
+        </div>
+        <div class="four-cols">
+          <div class="col">
+            <div class="reviews">
+              <div class="review">
+                <h6 class="title">Great Product!</h6>
+                <p class="sub-title">#Internet Security</p>
+                <p class="review-text">Trend Micro was recommended to me by my cousin. I am very happy to made that purchase. For the first time, I feel that I have the required security. Thank you</p>
+                <div class="description">Polito</div>
+                <div class="date">Mar 29, 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="col second-col">
+            <div class="reviews">
+              <div class="review">
+                <h6 class="title">Great features at a good price.</h6>
+                <p class="sub-title">#Maximum Security</p>
+                <p class="review-text">I bought the 10 device version and it protects all of my devices quite well. I especially like how it scans flash drives for malware.</p>
+                <div class="description">JD the JD1</div>
+                <div class="date">Mar 01, 2021</div>
+              </div>
+            </div>
+          </div> 
+          <div class="col third-col">
+            <div class="reviews">
+              <div class="review">
+                <h6 class="title">Worry Free Protection</h6>
+                <p class="sub-title">#Antivirus for Mac</p>
+                <p class="review-text">I have been running Trend Micro AV on my Mac since purchasing the device, 3 years ago and I am incident free.</p>
+                <div class="description">gMan007</div>
+                <div class="date">Mar 01, 2021</div>
+              </div>
+            </div>
+          </div> 
+          <div class="col second-col fourth-col">
+            <div class="reviews">
+              <div class="review">
+                <h6 class="title">Good choice!</h6>
+                <p class="sub-title">#Antivirus for Mac</p>
+                <p class="review-text">I bought this last year and repeat the purchase because TrendMicro protect my Mac completely. It's a secure purchase and the best choice sincerely.</p>
+                <div class="description">maggdaly</div>
+                <div class="date">Mar 22, 2021</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col12 spacer">
+      </div>
+    </section>
+
+    <section class="spacer video">
+      <div class="content-container-sm">
+        <div class="col2 center">
+          <h1>
+            <span>Watch</span> how Premium Security Suite works
+          </h1>
+        </div>
+        <div class="col2 center">
+          <a href="#" id="8c1005" class="link-wrap row prod-79711d61-1ef6-4b0a-b6a0-e88c9be22b18 mobile-vertical tablet-vertical desktop-vertical global-margin-top-default global-margin-bottom-default bs-modal " data-modal-behavior="default" data-modal-resource-url="https://www.trendmicro.com/content/dam/trendmicro/global/en/forhome/products/videos/Trend%20Micro%20Premium%20Security%20Suite%20v1.0_2020.mp4" data-toggle="modal" data-target="#defaultModal" data-iframe-src="/content/dam/trendmicro/global/en/forhome/products/videos/Trend%20Micro%20Premium%20Security%20Suite%20v1.0_2020.mp4">
+            <div class="image-wrap vertical col-md-12 col-sm-12 col-xs-12 center-align">
+              <img src="https://marvel-b1-cdn.bc0a.com/f00000000017219/www.trendmicro.com/content/dam/trendmicro/global/en/forhome/products/maximum-security/video-preview.jpg" alt="View Video" be_marvel="1" onerror="this.onerror=null;this.src='/content/dam/trendmicro/global/en/forhome/products/maximum-security/video-preview.jpg'">
+            </div>
+            
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+    
+<!-- video modal -->
+
+<div class="modal-wrap" style="display: none;">
+  <div class="modal fade in" id="defaultModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: block; padding-left: 0px;"> 
+    <div class="modal-dialog modal-lg" role="document">   
+      <div class="modal-content">     
+        <div class="modal-header">        
+          <h5 class="modal-title" id="exampleModalLabel">Premium Security Suite</h5>      
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">        
+              <span aria-hidden="true">×</span>   
+            </button>       
+            <div class="dropdown">          
+              <button type="button" class="modal-share" data-toggle="dropdown" aria-label="Share" aria-haspopup="true" aria-expanded="false">           
+                <span class="icon-share"></span>          
+              </button>         
+              <div class="dropdown-menu" id="copy-paste">           
+                <input type="text-field" class="copy-to-clipboard-content">           
+                <button type="button" class="copy-to-clipboard-button button white-to-red">Copy link</button>         
+              </div>       
+            </div>      
+          </div>      
+          <div class="modal-body">
+            <div id="modal-video-/content/dam/trendmicro/global/en/forhome/products/videos/Trend%20Micro%20Premium%20Security%20Suite%20v1.0_2020.mp4" class="jwplayer jw-reset jw-state-playing jw-stretch-uniform jw-breakpoint-6 jw-flag-user-inactive" tabindex="0" aria-label="Video Player" style="width: 640px; height: 360px;">
+              <div class="jw-aspect jw-reset"></div>
+              <div class="jw-media jw-reset">
+                <video class="jw-video jw-reset" disableremoteplayback="" webkit-playsinline="" playsinline="" preload="metadata" src="/content/dam/trendmicro/global/en/forhome/products/videos/Trend%20Micro%20Premium%20Security%20Suite%20v1.0_2020.mp4" style="object-fit: fill;">
+                </video>
+              </div>
+              <div class="jw-preview jw-reset"></div>
+              <div class="jw-controls-backdrop jw-reset"></div>
+              <div class="jw-captions jw-reset jw-captions-enabled" style="font-size: 29px;">
+                <div class="jw-captions-window jw-reset">
+                  <span class="jw-captions-text jw-reset"></span>
+                </div>
+              </div>
+              <div class="jw-title jw-reset" style="display: none;">
+                <div class="jw-title-primary jw-reset"></div>
+                <div class="jw-title-secondary jw-reset"></div>
+              </div>
+              <div class="jw-overlays jw-reset">
+                <div id="modal-video-/content/dam/trendmicro/global/en/forhome/products/videos/Trend%20Micro%20Premium%20Security%20Suite%20v1.0_2020.mp4_jwpsrv" class="jw-plugin jw-reset">
+                </div>
+                <div id="modal-video-/content/dam/trendmicro/global/en/forhome/products/videos/Trend%20Micro%20Premium%20Security%20Suite%20v1.0_2020.mp4_related" class="jw-plugin jw-reset jw-plugin-related">
+                </div>
+              </div>
+              <div class="afs_ads" style="width: 1px; height: 1px; position: absolute; background: transparent;">&nbsp;</div>
+              <div class="jw-controls jw-reset"><div class="jw-display jw-reset">
+                <div class="jw-display-container jw-reset"><div class="jw-display-controls jw-reset">
+                  <div class="jw-display-icon-container jw-display-icon-rewind jw-reset">
+                    <div class="jw-icon jw-icon-rewind jw-button-color jw-reset" role="button" tabindex="0" aria-label="Rewind 10 Seconds">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-rewind" viewBox="0 0 240 240" focusable="false"><path d="M113.2,131.078a21.589,21.589,0,0,0-17.7-10.6,21.589,21.589,0,0,0-17.7,10.6,44.769,44.769,0,0,0,0,46.3,21.589,21.589,0,0,0,17.7,10.6,21.589,21.589,0,0,0,17.7-10.6,44.769,44.769,0,0,0,0-46.3Zm-17.7,47.2c-7.8,0-14.4-11-14.4-24.1s6.6-24.1,14.4-24.1,14.4,11,14.4,24.1S103.4,178.278,95.5,178.278Zm-43.4,9.7v-51l-4.8,4.8-6.8-6.8,13-13a4.8,4.8,0,0,1,8.2,3.4v62.7l-9.6-.1Zm162-130.2v125.3a4.867,4.867,0,0,1-4.8,4.8H146.6v-19.3h48.2v-96.4H79.1v19.3c0,5.3-3.6,7.2-8,4.3l-41.8-27.9a6.013,6.013,0,0,1-2.7-8,5.887,5.887,0,0,1,2.7-2.7l41.8-27.9c4.4-2.9,8-1,8,4.3v19.3H209.2A4.974,4.974,0,0,1,214.1,57.778Z"></path></svg>
+                    </div>
+                  </div>
+                  <div class="jw-display-icon-container jw-display-icon-display jw-reset" style="cursor: pointer;">
+                    <div class="jw-icon jw-icon-display jw-button-color jw-reset" role="button" tabindex="0" aria-label="Pause">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-buffer" viewBox="0 0 240 240" focusable="false"><path d="M120,186.667a66.667,66.667,0,0,1,0-133.333V40a80,80,0,1,0,80,80H186.667A66.846,66.846,0,0,1,120,186.667Z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-replay" viewBox="0 0 240 240" focusable="false"><path d="M120,41.9v-20c0-5-4-8-8-4l-44,28a5.865,5.865,0,0,0-3.3,7.6A5.943,5.943,0,0,0,68,56.8l43,29c5,4,9,1,9-4v-20a60,60,0,1,1-60,60H40a80,80,0,1,0,80-79.9Z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-play" viewBox="0 0 240 240" focusable="false"><path d="M62.8,199.5c-1,0.8-2.4,0.6-3.3-0.4c-0.4-0.5-0.6-1.1-0.5-1.8V42.6c-0.2-1.3,0.7-2.4,1.9-2.6c0.7-0.1,1.3,0.1,1.9,0.4l154.7,77.7c2.1,1.1,2.1,2.8,0,3.8L62.8,199.5z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-pause" viewBox="0 0 240 240" focusable="false"><path d="M100,194.9c0.2,2.6-1.8,4.8-4.4,5c-0.2,0-0.4,0-0.6,0H65c-2.6,0.2-4.8-1.8-5-4.4c0-0.2,0-0.4,0-0.6V45c-0.2-2.6,1.8-4.8,4.4-5c0.2,0,0.4,0,0.6,0h30c2.6-0.2,4.8,1.8,5,4.4c0,0.2,0,0.4,0,0.6V194.9z M180,45.1c0.2-2.6-1.8-4.8-4.4-5c-0.2,0-0.4,0-0.6,0h-30c-2.6-0.2-4.8,1.8-5,4.4c0,0.2,0,0.4,0,0.6V195c-0.2,2.6,1.8,4.8,4.4,5c0.2,0,0.4,0,0.6,0h30c2.6,0.2,4.8-1.8,5-4.4c0-0.2,0-0.4,0-0.6V45.1z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="jw-display-icon-container jw-display-icon-next jw-reset" style="visibility: hidden;">
+                    <div class="jw-icon jw-icon-next jw-button-color jw-reset" role="button" tabindex="0" aria-label="Next">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-next" viewBox="0 0 240 240"><path d="M165,60v53.3L59.2,42.8C56.9,41.3,55,42.3,55,45v150c0,2.7,1.9,3.8,4.2,2.2L165,126.6v53.3h20v-120L165,60L165,60z"></path></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="jw-nextup-container jw-reset"><div class="jw-nextup jw-background-color jw-reset"><div class="jw-nextup-tooltip jw-reset"><div class="jw-nextup-thumbnail jw-reset"></div><div class="jw-nextup-body jw-reset"><div class="jw-nextup-header jw-reset"></div><div class="jw-nextup-title jw-reset"></div><div class="jw-nextup-duration jw-reset"></div></div></div><button type="button" class="jw-icon jw-nextup-close jw-reset" aria-label="Next Up Close"><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-close" viewBox="0 0 240 240" focusable="false"><path d="M134.8,120l48.6-48.6c2-1.9,2.1-5.2,0.2-7.2c0,0-0.1-0.1-0.2-0.2l-7.4-7.4c-1.9-2-5.2-2.1-7.2-0.2c0,0-0.1,0.1-0.2,0.2L120,105.2L71.4,56.6c-1.9-2-5.2-2.1-7.2-0.2c0,0-0.1,0.1-0.2,0.2L56.6,64c-2,1.9-2.1,5.2-0.2,7.2c0,0,0.1,0.1,0.2,0.2l48.6,48.7l-48.6,48.6c-2,1.9-2.1,5.2-0.2,7.2c0,0,0.1,0.1,0.2,0.2l7.4,7.4c1.9,2,5.2,2.1,7.2,0.2c0,0,0.1-0.1,0.2-0.2l48.7-48.6l48.6,48.6c1.9,2,5.2,2.1,7.2,0.2c0,0,0.1-0.1,0.2-0.2l7.4-7.4c2-1.9,2.1-5.2,0.2-7.2c0,0-0.1-0.1-0.2-0.2L134.8,120z"></path></svg></button></div></div><div class="jw-reset jw-settings-menu" role="menu" aria-expanded="false"><div class="jw-reset jw-settings-topbar" role="menubar"><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-settings-close" role="button" tabindex="0" aria-label="Close Settings" style=""><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-close" viewBox="0 0 240 240" focusable="false"><path d="M134.8,120l48.6-48.6c2-1.9,2.1-5.2,0.2-7.2c0,0-0.1-0.1-0.2-0.2l-7.4-7.4c-1.9-2-5.2-2.1-7.2-0.2c0,0-0.1,0.1-0.2,0.2L120,105.2L71.4,56.6c-1.9-2-5.2-2.1-7.2-0.2c0,0-0.1,0.1-0.2,0.2L56.6,64c-2,1.9-2.1,5.2-0.2,7.2c0,0,0.1,0.1,0.2,0.2l48.6,48.7l-48.6,48.6c-2,1.9-2.1,5.2-0.2,7.2c0,0,0.1,0.1,0.2,0.2l7.4,7.4c1.9,2,5.2,2.1,7.2,0.2c0,0,0.1-0.1,0.2-0.2l48.7-48.6l48.6,48.6c1.9,2,5.2,2.1,7.2,0.2c0,0,0.1-0.1,0.2-0.2l7.4-7.4c2-1.9,2.1-5.2,0.2-7.2c0,0-0.1-0.1-0.2-0.2L134.8,120z"></path></svg></div></div></div><div class="jw-controlbar jw-reset"><div class="jw-slider-time jw-background-color jw-reset jw-slider-horizontal jw-reset" aria-hidden="true"><div class="jw-slider-container jw-reset"><div class="jw-rail jw-reset"></div><div class="jw-buffer jw-reset" style="width: 60.5053%;"></div><div class="jw-progress jw-reset" style="width: 46.2043%;"></div><div class="jw-knob jw-reset" style="left: 46.2043%;"></div><div class="jw-icon jw-icon-tooltip jw-tooltip-time jw-button-color jw-reset"><div class="jw-overlay jw-reset"><div class="jw-time-tip jw-reset"><div class="jw-time-thumb jw-reset" style="width: 0px; height: 0px;"></div><span class="jw-text jw-reset"></span></div></div></div></div></div><div class="jw-reset jw-button-container"><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-playback" role="button" tabindex="0" aria-label="Play" style=""><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-play" viewBox="0 0 240 240" focusable="false"><path d="M62.8,199.5c-1,0.8-2.4,0.6-3.3-0.4c-0.4-0.5-0.6-1.1-0.5-1.8V42.6c-0.2-1.3,0.7-2.4,1.9-2.6c0.7-0.1,1.3,0.1,1.9,0.4l154.7,77.7c2.1,1.1,2.1,2.8,0,3.8L62.8,199.5z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-pause" viewBox="0 0 240 240" focusable="false"><path d="M100,194.9c0.2,2.6-1.8,4.8-4.4,5c-0.2,0-0.4,0-0.6,0H65c-2.6,0.2-4.8-1.8-5-4.4c0-0.2,0-0.4,0-0.6V45c-0.2-2.6,1.8-4.8,4.4-5c0.2,0,0.4,0,0.6,0h30c2.6-0.2,4.8,1.8,5,4.4c0,0.2,0,0.4,0,0.6V194.9z M180,45.1c0.2-2.6-1.8-4.8-4.4-5c-0.2,0-0.4,0-0.6,0h-30c-2.6-0.2-4.8,1.8-5,4.4c0,0.2,0,0.4,0,0.6V195c-0.2,2.6,1.8,4.8,4.4,5c0.2,0,0.4,0,0.6,0h30c2.6,0.2,4.8-1.8,5-4.4c0-0.2,0-0.4,0-0.6V45.1z"></path></svg></div><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-rewind" role="button" tabindex="0" aria-label="Rewind 10 Seconds" style=""><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-rewind" viewBox="0 0 240 240" focusable="false"><path d="M113.2,131.078a21.589,21.589,0,0,0-17.7-10.6,21.589,21.589,0,0,0-17.7,10.6,44.769,44.769,0,0,0,0,46.3,21.589,21.589,0,0,0,17.7,10.6,21.589,21.589,0,0,0,17.7-10.6,44.769,44.769,0,0,0,0-46.3Zm-17.7,47.2c-7.8,0-14.4-11-14.4-24.1s6.6-24.1,14.4-24.1,14.4,11,14.4,24.1S103.4,178.278,95.5,178.278Zm-43.4,9.7v-51l-4.8,4.8-6.8-6.8,13-13a4.8,4.8,0,0,1,8.2,3.4v62.7l-9.6-.1Zm162-130.2v125.3a4.867,4.867,0,0,1-4.8,4.8H146.6v-19.3h48.2v-96.4H79.1v19.3c0,5.3-3.6,7.2-8,4.3l-41.8-27.9a6.013,6.013,0,0,1-2.7-8,5.887,5.887,0,0,1,2.7-2.7l41.8-27.9c4.4-2.9,8-1,8,4.3v19.3H209.2A4.974,4.974,0,0,1,214.1,57.778Z"></path></svg><div class="jw-reset jw-tooltip jw-tooltip-rewind"><div class="jw-text">Rewind 10 Seconds</div></div></div><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-next" role="button" tabindex="0" aria-label="Next" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-next" viewBox="0 0 240 240"><path d="M165,60v53.3L59.2,42.8C56.9,41.3,55,42.3,55,45v150c0,2.7,1.9,3.8,4.2,2.2L165,126.6v53.3h20v-120L165,60L165,60z"></path></svg><div class="jw-reset jw-tooltip jw-tooltip-next"><div class="jw-text">Next Up</div></div></div><div aria-label="Volume" role="button" tabindex="0" class="jw-icon jw-icon-tooltip jw-icon-volume jw-button-color jw-reset jw-full"><div class="jw-overlay jw-reset"><div class="jw-slider-volume jw-volume-tip jw-reset jw-slider-vertical" aria-hidden="true"><div class="jw-slider-container jw-reset"><div class="jw-rail jw-reset"></div><div class="jw-buffer jw-reset"></div><div class="jw-progress jw-reset" style="height: 90%;"></div><div class="jw-knob jw-reset" style="bottom: 90%;"></div></div></div></div><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-volume-0" viewBox="0 0 240 240" focusable="false"><path d="M116.4,42.8v154.5c0,2.8-1.7,3.6-3.8,1.7l-54.1-48.1H28.9c-2.8,0-5.2-2.3-5.2-5.2V94.2c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48.1C114.6,39.1,116.4,39.9,116.4,42.8z M212.3,96.4l-14.6-14.6l-23.6,23.6l-23.6-23.6l-14.6,14.6l23.6,23.6l-23.6,23.6l14.6,14.6l23.6-23.6l23.6,23.6l14.6-14.6L188.7,120L212.3,96.4z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-volume-50" viewBox="0 0 240 240" focusable="false"><path d="M116.4,42.8v154.5c0,2.8-1.7,3.6-3.8,1.7l-54.1-48.1H28.9c-2.8,0-5.2-2.3-5.2-5.2V94.2c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48.1C114.7,39.1,116.4,39.9,116.4,42.8z M178.2,120c0-22.7-18.5-41.2-41.2-41.2v20.6c11.4,0,20.6,9.2,20.6,20.6c0,11.4-9.2,20.6-20.6,20.6v20.6C159.8,161.2,178.2,142.7,178.2,120z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-volume-100" viewBox="0 0 240 240" focusable="false"><path d="M116.5,42.8v154.4c0,2.8-1.7,3.6-3.8,1.7l-54.1-48H29c-2.8,0-5.2-2.3-5.2-5.2V94.3c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48C114.8,39.2,116.5,39.9,116.5,42.8z"></path><path d="M136.2,160v-20c11.1,0,20-8.9,20-20s-8.9-20-20-20V80c22.1,0,40,17.9,40,40S158.3,160,136.2,160z"></path><path d="M216.2,120c0-44.2-35.8-80-80-80v20c33.1,0,60,26.9,60,60s-26.9,60-60,60v20C180.4,199.9,216.1,164.1,216.2,120z"></path></svg></div><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-volume jw-full" role="button" tabindex="0" aria-label="Volume" style=""><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-volume-0" viewBox="0 0 240 240" focusable="false"><path d="M116.4,42.8v154.5c0,2.8-1.7,3.6-3.8,1.7l-54.1-48.1H28.9c-2.8,0-5.2-2.3-5.2-5.2V94.2c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48.1C114.6,39.1,116.4,39.9,116.4,42.8z M212.3,96.4l-14.6-14.6l-23.6,23.6l-23.6-23.6l-14.6,14.6l23.6,23.6l-23.6,23.6l14.6,14.6l23.6-23.6l23.6,23.6l14.6-14.6L188.7,120L212.3,96.4z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-volume-100" viewBox="0 0 240 240" focusable="false"><path d="M116.5,42.8v154.4c0,2.8-1.7,3.6-3.8,1.7l-54.1-48H29c-2.8,0-5.2-2.3-5.2-5.2V94.3c0-2.8,2.3-5.2,5.2-5.2h29.6l54.1-48C114.8,39.2,116.5,39.9,116.5,42.8z"></path><path d="M136.2,160v-20c11.1,0,20-8.9,20-20s-8.9-20-20-20V80c22.1,0,40,17.9,40,40S158.3,160,136.2,160z"></path><path d="M216.2,120c0-44.2-35.8-80-80-80v20c33.1,0,60,26.9,60,60s-26.9,60-60,60v20C180.4,199.9,216.1,164.1,216.2,120z"></path></svg></div><span class="jw-text jw-reset jw-text-alt" role="status"></span><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-text-live" role="button" tabindex="0" aria-label="Live" style="display: none;">Live</div><div class="jw-icon jw-icon-inline jw-text jw-reset jw-text-elapsed" role="timer">00:47</div><div class="jw-icon jw-icon-inline jw-text jw-reset jw-text-countdown" role="timer">00:55</div><div class="jw-icon jw-icon-inline jw-text jw-reset jw-text-duration" role="timer">01:42</div><div class="jw-reset jw-spacer"></div><div class="jw-reset jw-icon jw-icon-inline jw-icon-cast jw-button-color" aria-label="Chromecast" role="button" tabindex="0" style="display: none; cursor: pointer;"><button is="google-cast-button" type="button" tabindex="-1" class="jw-off"></button><div class="jw-reset jw-tooltip jw-tooltip-chromecast"><div class="jw-text">Chromecast</div></div></div><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-cc jw-settings-submenu-button" role="button" tabindex="0" aria-label="Closed Captions" aria-haspopup="true" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-cc-on" viewBox="0 0 240 240" focusable="false"><path d="M215,40H25c-2.7,0-5,2.2-5,5v150c0,2.7,2.2,5,5,5h190c2.7,0,5-2.2,5-5V45C220,42.2,217.8,40,215,40z M108.1,137.7c0.7-0.7,1.5-1.5,2.4-2.3l6.6,7.8c-2.2,2.4-5,4.4-8,5.8c-8,3.5-17.3,2.4-24.3-2.9c-3.9-3.6-5.9-8.7-5.5-14v-25.6c0-2.7,0.5-5.3,1.5-7.8c0.9-2.2,2.4-4.3,4.2-5.9c5.7-4.5,13.2-6.2,20.3-4.6c3.3,0.5,6.3,2,8.7,4.3c1.3,1.3,2.5,2.6,3.5,4.2l-7.1,6.9c-2.4-3.7-6.5-5.9-10.9-5.9c-2.4-0.2-4.8,0.7-6.6,2.3c-1.7,1.7-2.5,4.1-2.4,6.5v25.6C90.4,141.7,102,143.5,108.1,137.7z M152.9,137.7c0.7-0.7,1.5-1.5,2.4-2.3l6.6,7.8c-2.2,2.4-5,4.4-8,5.8c-8,3.5-17.3,2.4-24.3-2.9c-3.9-3.6-5.9-8.7-5.5-14v-25.6c0-2.7,0.5-5.3,1.5-7.8c0.9-2.2,2.4-4.3,4.2-5.9c5.7-4.5,13.2-6.2,20.3-4.6c3.3,0.5,6.3,2,8.7,4.3c1.3,1.3,2.5,2.6,3.5,4.2l-7.1,6.9c-2.4-3.7-6.5-5.9-10.9-5.9c-2.4-0.2-4.8,0.7-6.6,2.3c-1.7,1.7-2.5,4.1-2.4,6.5v25.6C135.2,141.7,146.8,143.5,152.9,137.7z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-cc-off" viewBox="0 0 240 240" focusable="false"><path d="M99.4,97.8c-2.4-0.2-4.8,0.7-6.6,2.3c-1.7,1.7-2.5,4.1-2.4,6.5v25.6c0,9.6,11.6,11.4,17.7,5.5c0.7-0.7,1.5-1.5,2.4-2.3l6.6,7.8c-2.2,2.4-5,4.4-8,5.8c-8,3.5-17.3,2.4-24.3-2.9c-3.9-3.6-5.9-8.7-5.5-14v-25.6c0-2.7,0.5-5.3,1.5-7.8c0.9-2.2,2.4-4.3,4.2-5.9c5.7-4.5,13.2-6.2,20.3-4.6c3.3,0.5,6.3,2,8.7,4.3c1.3,1.3,2.5,2.6,3.5,4.2l-7.1,6.9C107.9,100,103.8,97.8,99.4,97.8z M144.1,97.8c-2.4-0.2-4.8,0.7-6.6,2.3c-1.7,1.7-2.5,4.1-2.4,6.5v25.6c0,9.6,11.6,11.4,17.7,5.5c0.7-0.7,1.5-1.5,2.4-2.3l6.6,7.8c-2.2,2.4-5,4.4-8,5.8c-8,3.5-17.3,2.4-24.3-2.9c-3.9-3.6-5.9-8.7-5.5-14v-25.6c0-2.7,0.5-5.3,1.5-7.8c0.9-2.2,2.4-4.3,4.2-5.9c5.7-4.5,13.2-6.2,20.3-4.6c3.3,0.5,6.3,2,8.7,4.3c1.3,1.3,2.5,2.6,3.5,4.2l-7.1,6.9C152.6,100,148.5,97.8,144.1,97.8L144.1,97.8z M200,60v120H40V60H200 M215,40H25c-2.7,0-5,2.2-5,5v150c0,2.7,2.2,5,5,5h190c2.7,0,5-2.2,5-5V45C220,42.2,217.8,40,215,40z"></path></svg><div class="jw-reset jw-tooltip jw-tooltip-captions"><div class="jw-text">Closed Captions</div></div></div><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-settings jw-settings-submenu-button" role="button" tabindex="0" aria-label="Settings" aria-haspopup="true" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-settings" viewBox="0 0 240 240" focusable="false"><path d="M204,145l-25-14c0.8-3.6,1.2-7.3,1-11c0.2-3.7-0.2-7.4-1-11l25-14c2.2-1.6,3.1-4.5,2-7l-16-26c-1.2-2.1-3.8-2.9-6-2l-25,14c-6-4.2-12.3-7.9-19-11V35c0.2-2.6-1.8-4.8-4.4-5c-0.2,0-0.4,0-0.6,0h-30c-2.6-0.2-4.8,1.8-5,4.4c0,0.2,0,0.4,0,0.6v28c-6.7,3.1-13,6.7-19,11L56,60c-2.2-0.9-4.8-0.1-6,2L35,88c-1.6,2.2-1.3,5.3,0.9,6.9c0,0,0.1,0,0.1,0.1l25,14c-0.8,3.6-1.2,7.3-1,11c-0.2,3.7,0.2,7.4,1,11l-25,14c-2.2,1.6-3.1,4.5-2,7l16,26c1.2,2.1,3.8,2.9,6,2l25-14c5.7,4.6,12.2,8.3,19,11v28c-0.2,2.6,1.8,4.8,4.4,5c0.2,0,0.4,0,0.6,0h30c2.6,0.2,4.8-1.8,5-4.4c0-0.2,0-0.4,0-0.6v-28c7-2.3,13.5-6,19-11l25,14c2.5,1.3,5.6,0.4,7-2l15-26C206.7,149.4,206,146.7,204,145z M120,149.9c-16.5,0-30-13.4-30-30s13.4-30,30-30s30,13.4,30,30c0.3,16.3-12.6,29.7-28.9,30C120.7,149.9,120.4,149.9,120,149.9z"></path></svg><div class="jw-reset jw-tooltip jw-tooltip-settings"><div class="jw-text">Settings</div></div></div><div class="jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-fullscreen" role="button" tabindex="0" aria-label="Fullscreen" style=""><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-fullscreen-off" viewBox="0 0 240 240" focusable="false"><path d="M109.2,134.9l-8.4,50.1c-0.4,2.7-2.4,3.3-4.4,1.4L82,172l-27.9,27.9l-14.2-14.2l27.9-27.9l-14.4-14.4c-1.9-1.9-1.3-3.9,1.4-4.4l50.1-8.4c1.8-0.5,3.6,0.6,4.1,2.4C109.4,133.7,109.4,134.3,109.2,134.9L109.2,134.9z M172.1,82.1L200,54.2L185.8,40l-27.9,27.9l-14.4-14.4c-1.9-1.9-3.9-1.3-4.4,1.4l-8.4,50.1c-0.5,1.8,0.6,3.6,2.4,4.1c0.5,0.2,1.2,0.2,1.7,0l50.1-8.4c2.7-0.4,3.3-2.4,1.4-4.4L172.1,82.1z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-fullscreen-on" viewBox="0 0 240 240" focusable="false"><path d="M96.3,186.1c1.9,1.9,1.3,4-1.4,4.4l-50.6,8.4c-1.8,0.5-3.7-0.6-4.2-2.4c-0.2-0.6-0.2-1.2,0-1.7l8.4-50.6c0.4-2.7,2.4-3.4,4.4-1.4l14.5,14.5l28.2-28.2l14.3,14.3l-28.2,28.2L96.3,186.1z M195.8,39.1l-50.6,8.4c-2.7,0.4-3.4,2.4-1.4,4.4l14.5,14.5l-28.2,28.2l14.3,14.3l28.2-28.2l14.5,14.5c1.9,1.9,4,1.3,4.4-1.4l8.4-50.6c0.5-1.8-0.6-3.6-2.4-4.2C197,39,196.4,39,195.8,39.1L195.8,39.1z"></path></svg><div class="jw-reset jw-tooltip jw-tooltip-fullscreen"><div class="jw-text">Fullscreen</div></div></div></div></div></div></div></div>   
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <!-- end modal -->
+
+
+
+
+
+
+
+
+    <section class="spacer features">
+      <div class="content-container-sm">
+        <div class="col2 center">
+          <img src="images/pic1.jpg">
+        </div>
+        <div class="col2">
+          <h2 class="brand-color-font">
+            Maximum Security
+          </h2>
+          <p>
+            Enjoy complete multi-device protection against ransomware, viruses, dangerous websites, and identity thieves. Our cloud-based AI technology delivers highly effective and proactive protection against ever-evolving malware infections.
+          </p>
+          <ul>
+            <li><span>Protects against malware, viruses, ransomware, and other threats</span></li>
+            <li><span>Secure online banking and shopping</span></li>
+            <li><span>Guards against identity theft</span></li>
+            <li><span>Protection for PC, Mac, iOS and Android devices</span></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+    <section class="spacer features bg mobile">
+      <div class="content-container-sm">
+        <div class="col2">
+        </div>
+        <div class="col2">
+          <h2 class="white-font">
+            Mobile Security
+          </h2>
+          <p class="white-font">
+            Protects you against malicious apps, ransomware, dangerous websites, unsafe Wi-Fi networks, unwanted access to your device, and more. Optimize your mobile phone to keep it running at peak performance.
+          </p>
+          <ul>
+            <li><span>Blocks dangerous and fraudulent websites</span></li>
+            <li><span>Guards against identity theft, phishing scams, and banking fraud</span></li>
+            <li><span>Protects your device and data by ensuring your security is updated</span></li>
+            <li><span>Protection for iOS and Android devices</span></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+    <section class="spacer features">
+      <div class="content-container-sm">
+        <div class="col2 center">
+          <img src="images/pic3.jpg">
+        </div>
+        <div class="col2">
+          <h2 class="brand-color-font">
+            ID Security
+          </h2>
+          <ul>
+            <li><span>Monitor and receive alerts if personal information is found on the dark web</span></li>
+            <li><span>Personal data search - allows you to see if your email address, credit card number, passwords, or bank account details have been leaked due to data breaches</span></li>
+            <li><span>Compatible with iOS and Android devices</span></li>
+            <li><span>$39.95 if purchased separately</span></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+    <section class="spacer features bg wifi">
+      <div class="content-container-sm">
+        <div class="col2">
+        </div>
+        <div class="col2">
+          <h2 class="white-font">
+            WiFi Protection
+          </h2>
+          <ul>
+            <li><span>Turns public hotspot into a secure WiFi connection via Virtual Private Network(VPN)</span></li>
+            <li><span>Encrypts communication once connected to ensure privacy</span></li>
+            <li><span>Blocks dangerous and malicious websites</span></li>
+            <li><span>Protection for PC, Mac, iOS and Android devices</span></li>
+            <li><span>$59.95 if purchased separately</span></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+    <section class="spacer features">
+      <div class="content-container-sm">
+        <div class="col2 center">
+          <img src="images/pw-pic.jpg">
+        </div>
+        <div class="col2">
+          <h2 class="brand-color-font">
+            Password Manager
+          </h2>
+          <ul>
+            <li><span>Ensures password safety by identifying and changing weak passwords</span></li>
+            <li><span>Keystroke encryption for protection against keylogging malware</span></li>
+            <li><span>Generate secure passwords that are tough to hack</span></li>
+            <li><span>Compatible with PC, Mac, iOS and Android devices</span></li>
+            <li><span>$14.95 if purchased separately</span></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+    <section class="spacer features bg prem">
+      <div class="content-container-sm">
+        <div class="col2">
+        </div>
+        <div class="col2">
+          <h2 class="white-font">
+            WiFi Protection
+          </h2>
+          <ul>
+            <li><span>Turns public hotspot into a secure WiFi connection via Virtual Private Network(VPN)</span></li>
+            <li><span>Encrypts communication once connected to ensure privacy</span></li>
+            <li><span>Blocks dangerous and malicious websites</span></li>
+            <li><span>Protection for PC, Mac, iOS and Android devices</span></li>
+            <li><span>$59.95 if purchased separately</span></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="compare-products-section spacer">
+      <div class="content-container">
+        <h2>
+          Compare Products
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>
+              </th>
+              <th class="bg-blue">
+                <h5>
+                  Comprehensive
+                </h5>
+              </th>
+              <th class="bg-blue">
+                <h5>
+                  Best
+                </h5>
+              </th>
+              <th class="bg-blue">
+                <h5>
+                  Better
+                </h5>
+              </th>
+            </tr>
+            <tr>
+              <th style="vertical-align: bottom;">
+                <h5>What You Get</h5>
+              </th>
+              <th>
+                <h5 class="black-font">
+                  Premium Security Suite
+                </h5>
+                <h6 class="black-font">
+                  Windows<sup>&reg;</sup> &nbsp;
+                  Mac<sup>&reg;</sup> &nbsp;
+                  Android<sup>&trade;</sup> &nbsp;
+                  iOS &nbsp;
+                  Chromebook
+                </h6>
+              </th>
+              <th>
+                <h5 class="lite-font">
+                  Maximum Security
+                </h5>
+                <h6 class="lite-font">
+                  Windows<sup>&reg;</sup> &nbsp;
+                  Mac<sup>&reg;</sup> &nbsp;
+                  Android<sup>&trade;</sup> &nbsp;
+                  iOS &nbsp;
+                  Chromebook
+                </h6>
+              </th>
+              <th>
+                <h5 class="lite-font">
+                  Internet Security
+                </h5>
+                <h6 class="lite-font">
+                  Windows<sup>&reg;</sup>
+                </h6>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Number of devices protected</td>
+              <td><h5 class="black-font">10</h5></td>
+              <td><h5 class="lite-font">5</h5></td>
+              <td><h5 class="lite-font">3</h5></td>
+            </tr>
+            <tr>
+              <td>Protects against <a href="https://www.trendmicro.com/en_us/forHome/campaigns/ransomware-protection.html" target="_blank"><strong>ransomware</strong></a></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+            </tr>
+            <tr>
+              <td>Includes Advanced AI Learning</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+            </tr>
+
+            <tr>
+              <td>Safeguards against email scams</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+            </tr>
+            <tr>
+              <td>Includes Trend Micro Pay Guard</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+            </tr>
+            <tr>
+              <td>Keeps children safe online</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+            </tr>
+            <tr>
+              <td>Secures privacy on social media</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+            </tr>
+            <tr>
+              <td>Fixes and optimizes systems</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+            </tr>
+            <tr>
+              <td>Protects and manages passwords</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Secures mobile devices</td>
+              <td><p class="dot"></p></td>
+              <td><p class="dot"></p></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Dark Web monitoring for personal information</td>
+              <td><p class="dot"></p></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Personal VPN (Virtual Private Network)</td>
+              <td><p class="dot"></p></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>24x7 technical support and emergency assistance</td>
+              <td><p class="dot"></p></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Fast, remote diagnosis and repair</td>
+              <td><p class="dot"></p></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="cta-price-wrap">
+              <td></td>
+              <td>
+                <div class="chart-pricing">
+                  <h3>
+                    $ 69.95
+                  </h3>
+                  <strike>
+                    $ 129.95 
+                  </strike> 
+                  <a rel="noopener noreferrer" target="_blank" href="http://store.trendmicro.com/store/tmamer/en_US/buy/ThemeId.4823068100/pgm.4943930300/OfferId.22525022909/productID.5433352300?_ga=2.153008255.737630106.1626377880-503609244.1595777152&amp;_gac=1.259065336.1626273212.CjwKCAjwlrqHBhByEiwAnLmYUPCp9S-xe1GW5HcqH5uuUUTf1Wo3KRjmWahee7AM98kW_yY9uRSfjRoCzLUQAvD_BwE" class="buy-btn">
+                    Buy Now
+                  </a>
+                  <a href="/en_us/config/forHome/products/why-try-buy-maximum-security.html" class="free-btn">
+                    6 Month Free Trial
+                  </a>
+                </div>
+              </td>
+              <td>
+                <div class="chart-pricing">
+                  <h3>
+                    $ 39.95
+                  </h3>
+                  <strike>
+                    $ 89.95 
+                  </strike> 
+                  <a rel="noopener noreferrer" target="_blank" href="https://store.trendmicro.com/store/tmamer/AddItemToRequisition/productID.232227300/quantity.1/OfferID.0/pgm.4943930300/ThemeId.4823068100?_ga=2.241168581.737630106.1626377880-503609244.1595777152&amp;_gac=1.251791867.1626273212.CjwKCAjwlrqHBhByEiwAnLmYUPCp9S-xe1GW5HcqH5uuUUTf1Wo3KRjmWahee7AM98kW_yY9uRSfjRoCzLUQAvD_BwE" class="buy-btn">
+                    Buy Now
+                  </a>
+                  <a href="/en_us/config/forHome/products/why-try-buy-maximum-security.html" class="free-btn">
+                    6 Month Free Trial
+                  </a>
+                </div>
+              </td>
+              <td>
+                <div class="chart-pricing">
+                  <h3>
+                    $ 39.95
+                  </h3>
+                  <strike>
+                    $ 79.95 
+                  </strike> 
+                  <a rel="noopener noreferrer" target="_blank" href="https://store.trendmicro.com/store/tmamer/AddItemToRequisition/productID.147722500/quantity.1/OfferID.0/pgm.4943930400/ThemeId.4823068100?_ga=2.241168581.737630106.1626377880-503609244.1595777152&amp;_gac=1.251791867.1626273212.CjwKCAjwlrqHBhByEiwAnLmYUPCp9S-xe1GW5HcqH5uuUUTf1Wo3KRjmWahee7AM98kW_yY9uRSfjRoCzLUQAvD_BwE" class="buy-btn">
+                    Buy Now
+                  </a>
+                  <a href="/en_us/config/forHome/products/why-try-buy-maximum-security.html" class="free-btn">
+                    6 Month Free Trial
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="col12 spacer">
+        </div>
+      </div>
+    </section>
+
+    <section class="system-requirements-section">
+        <div class="content-container">
+          <p class="section-headline">System Requirements</p>
+          <p class="text-center">Minimum system requirements needed to install Trend Micro Security and its bundled products.</p>
+
+          <section class="system-requirements-container-first">
+            <button @click="showWindows = !showWindows" v-bind:class="{'content-open': showWindows }">Windows&trade; PC
+              <img src="images/down-arrow.png" v-bind:class="{'image-open': showWindows}" alt="click for more" />
+            </button>
+            <div v-if="showWindows" class="system-requirement-details-container">
+              <section class="system-requirement-details">
+                <p class="table-headline ">Trend Micro Security for Windows&trade;</p>
+                <div class="flex-box">
+                  <div class="title">
+                    Operating System
+                  </div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Windows 10 Creators Update</li>
+                      <li>Windows 10 (32-Bit or 64-Bit)</li>
+                      <li>Windows 8.1 (32-Bit or 64-Bit)</li>
+                      <li>Windows 8 (32-Bit or 64-Bit)</li>
+                      <li>Windows 7 SP1 (32-Bit or 64-Bit)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Hardware</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>1 GHz Processor</li>
+                      <li>1GB Memory (2GB Recommended)</li>
+                      <li>1.3GB of available hard disk space (1.5GB Recommended)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Supported Web Browsers</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Internet Explorer version 11.0</li>
+                      <li>Google Chrome&trade; (The newest version and the most recent previous version)</li>
+                      <li>Mozilla&reg; Firefox&reg; (The newest version and the most recent previous version)</li>
+                      <li>Microsoft Edge latest version</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Internet Connection</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Broadband or equivalent high speed connection is highly recommended.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Display</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Desktop - High-colour display with 1280 x 720 pixel resolution or above</li>
+                      <li>Windows Store - 1064 x 768 pixel resolution or above</li>
+                      <li>Snap Apps - 1366 x 768 pixel resolution or above</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section class="system-requirement-details">
+                <p class="table-headline">Password Manager for Windows&trade;</p>
+                <div class="flex-box">
+                  <div class="title">Operating System</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Windows 10 (32-Bit or 64-Bit)</li>
+                      <li>Windows 8.1 with KB2999226 (32-Bit or 64-Bit)</li>
+                      <li>Windows 8 with KB2999226 (32-Bit or 64-Bit)</li>
+                      <li>Windows 7 SP1 with KB2999226 (32 bit or 64 bit)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Hardware</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>1 GHz Processor</li>
+                      <li>2GB Memory</li>
+                      <li>300MB of available hard disk space</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Supported Web Browsers</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Internet Explorer version 11.0</li>
+                      <li>Google Chrome&trade; (The newest version and the most recent previous version)</li>
+                      <li>Mozilla&reg; Firefox&reg; (The newest version and the most recent previous version)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Internet Connection</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Broadband or equivalent high speed connection is highly recommended.</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section class="system-requirements-container">
+            <button @click="showApple = !showApple" v-bind:class="{ 'content-open': showApple }">Apple&reg; Macintosh&reg;
+              <img src="images/down-arrow.png" v-bind:class="{'image-open': showApple }" alt="click for more" />
+            </button>
+            <div v-if="showApple" class="system-requirement-details-container">
+              <section class="system-requirement-details">
+                <p class="table-headline">Trend Micro Security for Apple&reg; Macintosh&reg;</p>
+                <div class="flex-box">
+                  <div class="title">Operating System</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Mac OS&reg; 11 version (Big Sur)</li>
+                      <li>Mac OS&reg; X version 10.15 or later (Catalina)</li>
+                      <li>Mac OS&reg; X version 10.14 or later (Mojave)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Hardware</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>
+                        Intel&reg; Core&trade;-based Apple&reg; Macintosh&reg; computer
+                      </li>
+                      <li>2GB Memory</li>
+                      <li>1.5GB of available hard disk space</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Supported Web Browsers</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Apple&reg; Safari&reg; 9.0 or higher</li>
+                      <li>Google Chrome&trade; (The newest version and the most recent previous version)
+                      </li>
+                      <li>Mozilla&reg; Firefox&reg; (The newest version and the most recent previous version)
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Supported Social Networking Sites (For Privacy Scanner)</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Facebook</li>
+                      <li>Google+</li>
+                      <li>Twitter</li>
+                      <li>LinkedIn</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Internet Connection</div>
+                  <div class="info-box">
+                    <p>Antivirus for Mac needs an Internet connection for activating online, checking the expiration date, downloading
+                      updates (including program and pattern files) from Trend Micro, obtaining information about malicious
+                      software, or browsing pages on the Trend Micro website.
+                    </p>
+                    <p>If you have a dial-up or other connection to the Internet that charges fees per connection, by the amount
+                      of time connected or for the amount of data downloaded, make sure your router or connection software
+                      does not automatically start a connection to support the features listed above to avoid extra connection
+                      fees. Follow your router's instructions to edit your router settings if necessary.</p>
+                  </div>
+                </div>
+              </section>
+              <section class="system-requirement-details">
+                <p class="table-headline">Password Manager for Apple&reg; Macintosh&reg;</p>
+                <div class="flex-box">
+                  <div class="title">Operating System</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Mac OS&reg; 11 version (Big Sur)</li>
+                      <li>Mac OS&reg; X version 10.15 or later (Catalina)</li>
+                      <li>Mac OS&reg; X version 10.14 or later (Mojave)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Hardware</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Intel Core 2 Duo 2.0 GHz or faster</li>
+                      <li>2GB Memory</li>
+                      <li>300MB of available hard disk space</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Supported Web Browsers</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Apple&reg; Safari&reg; 9.0 or higher</li>
+                      <li>Google Chrome&trade; (The newest version and the most recent previous version)</li>
+                      <li>Mozilla&reg; Firefox&reg; (The newest version and the most recent previous version)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Internet Connection</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Broadband or equivalent high speed connection is highly recommended.</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section class="system-requirements-container">
+            <button @click="showMobile = !showMobile;" v-bind:class="{'content-open': showMobile}">Mobile Devices
+              <img src=" images/down-arrow.png" v-bind:class="{'image-open': showMobile }" alt="click for more" />
+            </button>
+            <div v-if="showMobile" class="system-requirement-details-container">
+              <section class="system-requirement-details">
+                <p class="table-headline">Mobile Security for Android</p>
+                <div class="flex-box">
+                  <div class="title">Operating System</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>4.1/4.4/5.0/5.1/6.0/7.0/8.0</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Storage space</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>50MB</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Memory</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>40-100 MB (Varies by device)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Other</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Internet Connection</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="system-requirement-details">
+                <p class="table-headline">Mobile Security for Android</p>
+                <div class="flex-box">
+                  <div class="title">Operating System</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>4.1/4.4/5.0/5.1/6.0/7.0/8.0</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Storage space</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>50MB</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Memory</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>40-100 MB (Varies by device)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box ">
+                  <div class="title ">Other</div>
+                  <div class="info-box ">
+                    <ul>
+                      <li>Internet Connection</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="system-requirement-details">
+                <p class="table-headline">Mobile Security for iOS</p>
+                <div class="flex-box">
+                  <div class="title">OS Version</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>9.0+</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Hardware</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Phone X, 8, 8 Plus</li>
+                      <li>iPhone 5s, 6, 6s, 6 Plus</li>
+                      <li>iPhone 6s Plus, 7, 7 Plus</li>
+                      <li>iPad Air, Air 2</li>
+                      <li>iPad Mini 2, Mini 3, Mini 4</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">Language</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>English</li>
+                      <li>Japanese</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="system-requirement-details">
+                <p class="table-headline ">Password Manager for Mobile Devices</p>
+                <div class="flex-box">
+                  <div class="title">Android</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Version 5.0/5.1/6.0/7.0</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex-box">
+                  <div class="title">IOS</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Version 9.0 - 10.3</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section class="system-requirements-container-last">
+            <button @click="showChrome = !showChrome;" v-bind:class="{'content-open': showChrome}">Chromebook
+              <img src="images/down-arrow.png" v-bind:class="{'image-open': showChrome }" alt="click for more" />
+            </button>
+            <div v-if="showChrome" class="system-requirement-details-container">
+              <section class="system-requirement-details">
+                <div class="flex-box">
+                  <div class="title">Operating System</div>
+                  <div class="info-box">
+                    <ul>
+                      <li>Chrome OS 79 or higher (Chromebooks only supported by Trend Micro Security on Chrome Web Store)</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+
+
+          <section class="terms">
+            <p>
+              <strong>
+                Terms & Conditions
+              </strong>
+            </p>
+            <p>
+              The introductory purchase price today is valid for the first term of your new subscription. Your subscription renews each year at the then-current subscription renewal price. Pricing is subject to change.
+            </p>
+            <p>
+              Premium Service plan is intended for use by home and home-office customers only. As such, Support cannot be provided for beta software, computers running server operating system or that have been configured to run in a corporate LAN environment.
+            </p>
+            <p>
+              Trend Micro Premium Support Services are provided on a "best efforts" basis and for some issues, such as those relating to hardware defects and licensing or account management issues from third party providers, you may need to be referred to the manufacturer or provider for support.
+            </p>
+          </section>
+        </div>
+
+        <footer role="contentinfo">
+          <div class="content-container">
+            <div class="footer-icons">
+              <figure class="twitter">
+                <a href="https://twitter.com/trendmicro">
+                  <img src="images/twitter.png" alt="Twitter logo">
+                </a>
+              </figure>
+              <figure class="linkedin">
+                <a href="https://www.linkedin.com/company/trend-micro/">
+                  <img src="images/linkedin.png" alt="LinkedIn logo">
+                </a>
+              </figure>
+              <figure class="youtube">
+                <a href="https://www.youtube.com/user/TrendMicroInc">
+                  <img src="images/youtube.png" alt="YouTube logo">
+                </a>
+              </figure>
+              <figure class="facebook">
+                <a href="https://www.facebook.com/Trendmicro/">
+                  <img src="images/facebook.png" alt="YouTube logo">
+                </a>
+              </figure>
+              <figure class="rss">
+                <a href="https://www.trendmicro.com/en_us/security-intelligence/breaking-news/newsletter-subscribe.html">
+                  <img src="images/rss.png" alt="RSS logo">
+                </a>
+              </figure>
+            </div>
+            <div class="copyright">
+              <p>
+                Copyright &copy; 2021 Trend Micro Incorporated. All Rights Reserved. 
+              </p>
+            </div>
+          </div>
+        </footer>
+      </section>
+  </main>
+
+</div>
+
+<script src="js/js.js"></script>
+</body>
+</html>
